@@ -7,25 +7,25 @@ export default function Home() {
   return (
     <>
 {/* Hero */}
-<div className="w-full bg-[#1E1E2F]">
-  <div className="bg-[#1E1E2F] h-[1000px] mx-auto flex flex-col lg:flex-row items-center justify-around 2xl:w-[1500px]">
+<div className="w-full bg-black">
+  <div className=" h-[1000px] mx-auto flex flex-col lg:flex-row items-center justify-around 2xl:w-[1500px]">
     {/* Left content: Text */}
     <div className="w-full lg:w-[40%] items-center text-center lg:text-left p-4">
-      <h1 className="text-[#A0D8F1] text-[40px] mb-4">Hello, I am Anamta</h1>
+      <h1 className="text-[#A78546] text-[40px] mb-4">Hello, I am Anamta</h1>
       <p className="text-white text-[18px] leading-relaxed">
         I am a web developer and SEO expert studying DATA SCIENCE, exploring the intersection of data and technology through cloud-applied generative AI engineering. My journey is about mastering the latest AI tools to enhance web development and the science of data.
       </p>
 
       <div className="flex gap-6 mt-6 justify-center lg:justify-start">
         {/* GitHub Icon */}
-        <Link href="/" className="w-[60px] h-[60px] rounded-full bg-[#333] flex items-center justify-center shadow-lg hover:bg-[#555] transition">
+        <Link href="https://github.com/anamta-ansari/" className="w-[60px] h-[60px] rounded-full bg-[#333] flex items-center justify-center shadow-lg hover:bg-[#555] transition">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-8 h-8">
             <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.834 2.809 1.304 3.495.998.108-.776.418-1.305.76-1.605-2.665-.305-5.466-1.334-5.466-5.93 0-1.31.465-2.381 1.235-3.221-.123-.305-.535-1.527.117-3.176 0 0 1.007-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.29-1.552 3.295-1.23 3.295-1.23.653 1.649.241 2.871.118 3.176.77.84 1.231 1.911 1.231 3.221 0 4.61-2.807 5.624-5.479 5.921.43.372.815 1.102.815 2.222v3.293c0 .32.217.694.825.576C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
           </svg>
         </Link>
 
         {/* LinkedIn Icon */}
-        <Link href="/" className="w-[60px] h-[60px] rounded-full bg-[#0077B5] flex items-center justify-center shadow-lg hover:bg-[#005983] transition">
+        <Link href="https://www.linkedin.com/in/anamta-ansari-a117552b5/" className="w-[60px] h-[60px] rounded-full bg-[#0077B5] flex items-center justify-center shadow-lg hover:bg-[#005983] transition">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-8 h-8">
             <path d="M22.23 0H1.77C.79 0 0 .77 0 1.75v20.5C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.75V1.75C24 .77 23.21 0 22.23 0zM7.12 20.45H3.56V9.01h3.56v11.44zM5.34 7.58a2.07 2.07 0 01-2.07-2.07c0-1.15.92-2.08 2.07-2.08 1.14 0 2.07.93 2.07 2.08 0 1.14-.93 2.07-2.07 2.07zm15.11 12.87h-3.56v-5.6c0-1.33-.03-3.05-1.86-3.05-1.86 0-2.15 1.45-2.15 2.95v5.7h-3.55V9.01h3.41v1.56h.05c.47-.89 1.62-1.83 3.33-1.83 3.56 0 4.22 2.34 4.22 5.38v6.34z" />
           </svg>
@@ -48,7 +48,7 @@ export default function Home() {
 
 
       {/* About */}
-      <div className="bg-[#1d1d2d] w-full h-[100] " id="about">
+      <div className="bg-black w-full h-[100] " id="about">
         <div className="mx-auto 2xl:w-[1500px]">
           <div className="flex flex-col items-center p-[3rem]">
             {/* Rounded image wrapper */}
@@ -61,8 +61,8 @@ export default function Home() {
                 height={350}
               />
             </div>
-            <h1 className="text-[#A0D8F1] text-4xl text-center mb-6">ABOUT ME</h1>
-            <h2 className="text-[#A0D8F1] text-2xl mb-4 text-center">WEB DEVELOPER & SEO EXPERT</h2>
+            <h1 className="text-[#A78546] text-4xl text-center mb-6">ABOUT ME</h1>
+            <h2 className="text-[#A78546] text-2xl mb-4 text-center">WEB DEVELOPER & SEO EXPERT</h2>
             <p className="text-white text-lg leading-relaxed w-[50%] text-center">
               I am a web developer and SEO expert studying DATA SCIENCE, exploring the intersection of data and technology through cloud-applied generative AI engineering. My journey is about mastering the latest AI tools to enhance web development and the science of data.
             </p>
@@ -72,9 +72,9 @@ export default function Home() {
 
 
        {/* Skills Section */}
-       <div className="bg-[#1E1E2F] w-full p-[3rem]">
+       <div className="bg-black w-full p-[3rem]">
           <div className="mx-auto 2xl:w-[1500px]">
-            <h1 className="text-[#A0D8F1] text-4xl text-center mb-6 sm:text-center md:text-center lg:text-center">
+            <h1 className="text-[#A78546] text-4xl text-center mb-6 sm:text-center md:text-center lg:text-center">
               SKILLS
             </h1>
   
@@ -98,7 +98,7 @@ export default function Home() {
                 </div>
                 <h1 className="text-2xl font-semibold mb-3">HTML</h1>
                 <p>
-                I provide expert HTML coding services to create clean and responsive web structures. I ensure   SEO optimization, and accessibility, delivering a solid foundation for your website's design and functionality.
+                I provide expert HTML coding services to create clean and responsive web structures. I ensure   SEO optimization, and accessibility, delivering a solid foundation for your website design and functionality.
                 </p>
               </div>
   
@@ -198,54 +198,57 @@ export default function Home() {
 
 
 {/*projects*/}
-<div className="bg-[#1E1E2F] h-max py-[5rem] w-full text-white">
+<div className="bg-black h-max py-[5rem] w-full text-white">
   <div className="mx-auto 2xl:w-[1500px]">
-    <h1 className="text-[#A0D8F1] text-4xl text-center mb-6">PROJECTS</h1>
+    <h1 className="text-[#A78546] text-4xl text-center mb-6">PROJECTS</h1>
     <div className="flex flex-col lg:flex-row items-center justify-center gap-8 text-center p-4">
       {/*1 project*/}
-      <div>
+      <div className = "bg-[#1A1A1A] h-max w-[350px]">
       <Image
-        src="/assets/resume.JPG"
-        className="w-[450px] h-[500px] object-cover rounded-lg"
+        src="/assets/sR.jpg"
         alt="Profile"
-        width={250}
+        width={350}
         height={250}
       />
-      <h1 className = "text-[24px] underline font-bold">Static Resume</h1>
+      <h1 className = "text-[18px] mt-3 font-bold">Static Resume</h1>
+      <p className = "text-[14px]">A static resume built with HTML CSS and Javascript showcases personal information, skills, and experience in a well-structured, visually appealing format without dynamic content or interactivity.</p>
+      <Link href = "/"><button className = "bg-[#A78546] mb-3  h-[3rem] w-[8rem] text-white hover:bg-[#A1A1A1]">Veiw project</button></Link>
       </div>
       {/*2 project*/}
-      <div>
+      <div className = "bg-[#1A1A1A] h-max w-[350px]">
       <Image
-        src="/assets/ecommerce.JPG"
-        className="w-[450px] h-[500px] object-cover rounded-lg"
+        src="/assets/E1.jpg"
         alt="Profile"
-        width={250}
+        width={350}
         height={250}
       />
-      <h1 className = "text-[24px] underline font-bold">Ecommerce website</h1>
+      <h1 className = "text-[18px]  mt-3 font-bold">Ecommerce website</h1>
+      <p className = "text-[14px]">A dynamic resume built with HTML, CSS, and TypeScript allows for interactive features, real-time updates, and data manipulation, offering a more engaging and customizable user experience.</p>
+      <Link href = "/"><button className = "bg-[#A78546] mb-3 h-[3rem] w-[8rem] text-white hover:bg-[#A1A1A1]">Veiw project</button></Link>
       </div>
       {/*3 project*/}
-      <div>
+      <div className = "bg-[#1A1A1A] h-max w-[350px]">
       <Image
-        src="/assets/resume-builder.JPG"
-        className="w-[450px] h-[500px] object-cover rounded-lg"
+        src="/assets/dynamic-resume.jpg"
         alt="Profile"
-        width={250}
+        width={350}
         height={250}
       />
-      <h1 className = "text-[24px] underline font-bold">Dynamic Resume Builder</h1>
+      <h1 className = "text-[18px] mt-3 font-bold">Dynamic Resume Builder</h1>
+      <p className = "text-[14px]">A dynamic resume built with HTML, CSS, and TypeScript allows for interactive features, real-time updates, and data manipulation, offering a more engaging and customizable user experience.</p>
+      <Link href = "/"><button className = "bg-[#A78546]  mb-3 h-[3rem] w-[8rem] text-white hover:bg-[#A1A1A1]">Veiw project</button></Link>
       </div>
 </div>
 </div>
 </div>
 
 {/* Services */}
-<div className="bg-[#1E1E2F] h-max py-[5rem] w-full text-white">
+<div className="bg-black h-max py-[5rem] w-full text-white">
   <div className="mx-auto 2xl:w-[1500px]">
-    <h1 className="text-[#A0D8F1] text-4xl text-center mb-6">SERVICES</h1>
+    <h1 className="text-[#A78546] text-4xl text-center mb-6">SERVICES</h1>
     <div className="flex flex-col lg:flex-row items-center justify-center gap-8 text-center p-4">
       {/* Web Development */}
-      <div className="border border-[#A0D8F1] rounded w-full lg:w-1/3 flex flex-col justify-center items-center text-center p-6">
+      <div className="border border-[#A78546] rounded w-[400px] h-[400px] bg-[#1A1A1A] lg:w-1/3 flex flex-col justify-center items-center text-center p-6">
         <div
           className="w-24 h-24 inline-flex items-center justify-center rounded-full bg-gradient-to-br from-pink-500 to-yellow-400 text-white mb-5 flex-shrink-0 shadow-2xl transform transition-transform hover:rotate-12 hover:scale-110"
           aria-label="Web Development Icon"
@@ -269,7 +272,7 @@ export default function Home() {
       </div>
 
       {/* Web Design */}
-      <div className="border border-[#A0D8F1] rounded w-full lg:w-1/3 flex flex-col justify-center items-center text-center p-6">
+      <div className="border border-[#A78546] bg-[#1A1A1A] h-[400px] rounded w-[400px] lg:w-1/3 flex flex-col justify-center items-center text-center p-6">
         <div
           className="w-24 h-24 inline-flex items-center justify-center rounded-full bg-gradient-to-br from-pink-500 to-yellow-400 text-white mb-5 flex-shrink-0 shadow-2xl transform transition-transform hover:rotate-12 hover:scale-110"
           aria-label="Web Design Icon"
@@ -286,12 +289,12 @@ export default function Home() {
         </div>
         <h1>WEB DESIGNING</h1>
         <p>
-        I offer expert web design services to bring your vision to life. From the initial concept to the final design, I create visually stunning and user-friendly websites that captivate your audience. By combining aesthetics with functionality, I craft responsive, intuitive designs that enhance user experience. With a keen eye for design trends and a focus on delivering personalized, impactful solutions, I ensure that your brand stands out online with designs that make a lasting impression.
+        I offer expert web design services to bring your vision to life. From the initial concept to the final design. I craft responsive, intuitive designs that enhance user experience. With a keen eye for design trends and a focus on delivering personalized, impactful solutions, I ensure that your brand stands out online with designs that make a lasting impression.
         </p>
       </div>
 
       {/* SEO Expert */}
-      <div className="border border-[#A0D8F1] rounded w-full lg:w-1/3 flex flex-col justify-center items-center text-center p-6">
+      <div className="border border-[#A78546] bg-[#1A1A1A]  h-[400px] rounded w-[400px] lg:w-1/3 flex flex-col justify-center items-center text-center p-6">
         <div
           className="w-24 h-24 inline-flex items-center justify-center rounded-full bg-gradient-to-br from-pink-500 to-yellow-400 text-white mb-5 flex-shrink-0 shadow-2xl transform transition-transform hover:rotate-12 hover:scale-110"
           aria-label="SEO Icon"
@@ -308,7 +311,7 @@ export default function Home() {
         </div>
         <h1>SEO EXPERT</h1>
         <p>
-        I provide expert SEO services to enhance your online visibility and drive organic traffic to your website. By analyzing your website’s structure, content, and backlinks, I optimize it to improve search engine rankings and increase overall online performance. Using the latest SEO techniques and tools, I help you target the right audience, boost your brand’s authority, and achieve measurable growth. My approach focuses on delivering long-term, sustainable results that drive business success through improved search engine presence
+        I provide expert SEO services to enhance your online visibility and drive organic traffic to your website. Using the latest SEO techniques and tools, I help you target the right audience, boost your brands authority, and achieve measurable growth. My approach focuses on delivering long-term, sustainable results that drive business success through improved search engine presence
         </p>
       </div>
     </div>
@@ -317,33 +320,34 @@ export default function Home() {
 
 
 {/* Contact Section */}
-<div className="w-full bg-[#1E1E2F]">
+<div className="w-full bg-black">
         <div className="container mx-auto px-4 py-8 2xl:w-[1500px]">
+        <h1 className="text-[#A78546] text-4xl text-center py-[3rem] mb-6">Get in touch with us</h1>
           <div className="flex flex-col lg:flex-row justify-between gap-8">
 
             {/* Contact Info Section */}
             <div className="w-full sm:w-1/2 lg:w-1/3 mb-8 sm:mb-0">
-              <h2 className="text-2xl font-semibold mb-4 text-[#A0D8F1]">Contact Information</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-[#A78546]">Contact Information</h2>
               
               <div className="flex items-center mb-4">
-                <FaPhoneAlt className="text-xl mr-2 text-[#A0D8F1]" />
+                <FaPhoneAlt className="text-xl mr-2 text-[#A78546]" />
                 <p className="text-lg text-white">+1 (555) 123-4567</p>
               </div>
 
               <div className="flex items-center mb-4">
-                <FaEnvelope className="text-xl mr-2 text-[#A0D8F1]" />
+                <FaEnvelope className="text-xl mr-2 text-[#A78546]" />
                 <p className="text-lg text-white">contact@example.com</p>
               </div>
 
               <div className="flex items-center mb-4">
-                <FaMapMarkerAlt className="text-xl mr-2 text-[#A0D8F1]" />
+                <FaMapMarkerAlt className="text-xl mr-2 text-[#A78546]" />
                 <p className="text-lg text-white">123 Example St, City, Country</p>
               </div>
             </div>
 
             {/* Contact Form Section */}
             <div className="w-full sm:w-1/2 lg:w-2/3">
-              <h2 className="text-2xl font-semibold mb-4 text-[#A0D8F1]">Send Us a Message</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-[#A78546]">Send Us a Message</h2>
               
               <form className="space-y-4">
                 {/* Name Input */}
@@ -385,7 +389,7 @@ export default function Home() {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-[#A0D8F1] text-white p-3 rounded-md mt-4 hover:bg-[#5fb6cd]"
+                  className="w-full bg-[#A78546] text-white p-3 rounded-md mt-4 hover:bg-[#A1A1A1]"
                 >
                   Send Message
                 </button>
@@ -394,6 +398,12 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+
+
+
+
+
 
     </>
   );
