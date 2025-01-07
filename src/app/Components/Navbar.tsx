@@ -13,10 +13,10 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-[#A0D8F1] w-full">
-      <nav className="bg-[#A0D8F1] mx-auto text-white p-4 h-[80px] 2xl:w-[1500px]">
+    <div className="bg-[#1A1A1A] w-full">
+      <nav className=" mx-auto text-white p-4 h-[80px] 2xl:w-[1500px]">
         <div className="flex justify-between items-center">
-          <a href="#" className="text-[30px] font-bold">My Portfolio</a>
+          <a href="#" className="text-[30px] font-bold">My <span className = "text-[#A78546]">Portfolio</span></a>
           
           {/* Hamburger Icon (visible on small screens) */}
           <div className="lg:hidden">
@@ -31,17 +31,17 @@ export default function Navbar() {
               menuOpen ? "flex-col absolute top-[80px] left-0 w-full bg-[#A0D8F1] p-4" : "hidden"
             }`}
           >
-            <li>
-              <Link href="/">HOME</Link>
+            <li >
+              <Link href="/" className = "text-[#A78546]">HOME</Link>
             </li>
             <li>
-              <Link href="/About">ABOUT</Link>
+              <Link href="/About" className = "text-[#A78546]">ABOUT</Link>
             </li>
             <li>
-              <Link href="/Skills">SKILLS</Link>
+              <Link href="/Skills" className = "text-[#A78546]">SKILLS</Link>
             </li>
             <li>
-              <Link href="/Contact">CONTACT</Link>
+              <Link href="/Contact" className = "text-[#A78546]">CONTACT</Link>
             </li>
           </ul>
         </div>
