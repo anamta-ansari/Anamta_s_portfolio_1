@@ -212,7 +212,7 @@ export default function Home() {
       />
       <h1 className = "text-[18px] mt-3 font-bold">Static Resume</h1>
       <p className = "text-[14px]">A static resume built with HTML CSS and Javascript showcases personal information, skills, and experience in a well-structured, visually appealing format without dynamic content or interactivity.</p>
-      <Link href = "/"><button className = "bg-[#A78546] mb-3  h-[3rem] w-[8rem] text-white hover:bg-[#A1A1A1]">Veiw project</button></Link>
+      <Link href = "https://anamta-static-resume.vercel.app/"><button className = "bg-[#A78546] mb-3  h-[3rem] w-[8rem] text-white hover:bg-[#A1A1A1]">Veiw project</button></Link>
       </div>
       {/*2 project*/}
       <div className = "bg-[#1A1A1A] h-max w-[350px]">
@@ -224,7 +224,7 @@ export default function Home() {
       />
       <h1 className = "text-[18px]  mt-3 font-bold">Ecommerce website</h1>
       <p className = "text-[14px]">A dynamic resume built with HTML, CSS, and TypeScript allows for interactive features, real-time updates, and data manipulation, offering a more engaging and customizable user experience.</p>
-      <Link href = "/"><button className = "bg-[#A78546] mb-3 h-[3rem] w-[8rem] text-white hover:bg-[#A1A1A1]">Veiw project</button></Link>
+      <Link href = "https://e-commerce-1-6gpf.vercel.app/"><button className = "bg-[#A78546] mb-3 h-[3rem] w-[8rem] text-white hover:bg-[#A1A1A1]">Veiw project</button></Link>
       </div>
       {/*3 project*/}
       <div className = "bg-[#1A1A1A] h-max w-[350px]">
@@ -236,7 +236,7 @@ export default function Home() {
       />
       <h1 className = "text-[18px] mt-3 font-bold">Dynamic Resume Builder</h1>
       <p className = "text-[14px]">A dynamic resume built with HTML, CSS, and TypeScript allows for interactive features, real-time updates, and data manipulation, offering a more engaging and customizable user experience.</p>
-      <Link href = "/"><button className = "bg-[#A78546]  mb-3 h-[3rem] w-[8rem] text-white hover:bg-[#A1A1A1]">Veiw project</button></Link>
+      <Link href = "https://dynamic-resume-builder-mu-nine.vercel.app/"><button className = "bg-[#A78546]  mb-3 h-[3rem] w-[8rem] text-white hover:bg-[#A1A1A1]">Veiw project</button></Link>
       </div>
 </div>
 </div>
