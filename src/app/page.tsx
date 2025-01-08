@@ -81,7 +81,7 @@ export default function Home() {
             {/* Grid layout for skills */}
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
               {/* HTML */}
-              <div className="bg-[#D24020] w-[80%] h-[400px] text-center rounded-[10px] p-3 pt-5 pb-5 flex flex-col justify-center items-center text-white">
+              <div className="bg-[#D24020] w-[400px] h-[400px] text-center rounded-[10px] p-3 pt-5 pb-5 flex flex-col justify-center items-center text-white">
                 <div className="flex items-center justify-center w-24 h-24 rounded-full text-6xl mb-6 bg-orange-600 bg-opacity-90 border-4 border-white">
                   <svg
                     stroke="currentColor"
@@ -103,7 +103,7 @@ export default function Home() {
               </div>
   
               {/* CSS */}
-              <div className="bg-blue-500 w-[80%] h-[400px] text-center rounded-[10px] p-3 pt-5 pb-5 flex flex-col justify-center items-center text-white">
+              <div className="bg-blue-500 w-[400px] h-[400px] text-center rounded-[10px] p-3 pt-5 pb-5 flex flex-col justify-center items-center text-white">
                 <div className="flex items-center justify-center w-24 h-24 rounded-full text-6xl mb-6 bg-blue-500 bg-opacity-90 border-4 border-white">
                   <svg
                     stroke="currentColor"
@@ -125,7 +125,7 @@ export default function Home() {
               </div>
   
               {/* TypeScript */}
-              <div className="bg-[#095859] w-[80%] h-[400px] text-center rounded-[10px] p-3 pt-5 pb-5 flex flex-col justify-center items-center text-white">
+              <div className="bg-[#095859] w-[400px] h-[400px] text-center rounded-[10px] p-3 pt-5 pb-5 flex flex-col justify-center items-center text-white">
                 <div className="flex items-center justify-center w-24 h-24 rounded-full text-6xl mb-6 bg-[#095859] bg-opacity-90 border-4 border-white">
                   <svg
                     stroke="currentColor"
@@ -148,7 +148,7 @@ export default function Home() {
               </div>
   
               {/* Next.js */}
-              <div className="bg-[#5C5F68] w-[80%] h-[400px] text-center rounded-[10px] p-3 pt-5 pb-5 flex flex-col justify-center items-center text-white">
+              <div className="bg-[#5C5F68] w-[400px] h-[400px] text-center rounded-[10px] p-3 pt-5 pb-5 flex flex-col justify-center items-center text-white">
                 <div className="flex items-center justify-center w-24 h-24 rounded-full text-6xl mb-6 bg-[#5C5F68] bg-opacity-90 border-4 border-white">
                   <svg
                     stroke="currentColor"
@@ -171,7 +171,7 @@ export default function Home() {
               </div>
   
               {/* Tailwind CSS */}
-              <div className="bg-teal-600 w-[80%] h-[400px] text-center rounded-[10px] p-3 pt-5 pb-5 flex flex-col justify-center items-center text-white">
+              <div className="bg-teal-600 w-[400px] h-[400px] text-center rounded-[10px] p-3 pt-5 pb-5 flex flex-col justify-center items-center text-white">
                 <div className="flex items-center justify-center w-24 h-24 rounded-full text-6xl mb-6 bg-teal-600 bg-opacity-90 border-4 border-white">
                   <svg
                     stroke="currentColor"
