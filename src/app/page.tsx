@@ -223,7 +223,7 @@ export default function Home() {
         height={250}
       />
       <h1 className = "text-[18px]  mt-3 font-bold">Ecommerce website</h1>
-      <p className = "text-[14px]">A dynamic resume built with HTML, CSS, and TypeScript allows for interactive features, real-time updates, and data manipulation, offering a more engaging and customizable user experience.</p>
+      <p className = "text-[14px]">Created a responsive e-commerce website using Next.js and Tailwind CSS, integrating Sanity CMS via API to fetch and display dynamic product data with smooth navigation, filtering, and clean design.</p>
       <Link href = "https://e-commerce-1-6gpf.vercel.app/"><button className = "bg-[#A78546] mb-3 h-[3rem] w-[8rem] text-white hover:bg-[#A1A1A1]">Veiw project</button></Link>
       </div>
       {/*3 project*/}
