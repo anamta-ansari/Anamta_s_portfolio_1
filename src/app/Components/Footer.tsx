@@ -8,7 +8,7 @@ export default function Footer() {
         {/* Short Description Section */}
         <div className="w-full lg:w-1/3 h-full flex flex-col justify-between">
           <h3 className="text-2xl sm:text-3xl md:text-[32px] text-[#A78546] mb-2">About Me</h3>
-          <p className="text-lg sm:text-xl">A short description about the website or company goes here. You can mention your mission or values.</p>
+          <p className="text-lg sm:text-xl">I am a web developer and SEO expert studying DATA SCIENCE, exploring the intersection of data and technology through cloud-applied generative AI engineering. My journey is about mastering the latest AI tools to enhance web development and the science of data.</p>
         </div>
 
         {/* Quick Links Section */}
